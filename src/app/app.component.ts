@@ -12,5 +12,5 @@ export class AppComponent {
   }
 
   title: string = 'My First Angular App';
-  demoStr: string = 'This is demo string';
+  
 }
