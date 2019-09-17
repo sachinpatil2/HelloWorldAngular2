@@ -7,7 +7,10 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  constructor() {}
+  constructor() {
+	console.log('This is demo');
+  }
 
   title: string = 'My First Angular App';
+  demoStr: string = 'This is demo string';
 }
